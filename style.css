@@ -1,0 +1,63 @@
+@keyframes spin{
+    11% {background: conic-gradient(red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(196, 65, 196), red);}
+    22% {background: conic-gradient(orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(196, 65, 196), red, orangered);}
+    33% {background: conic-gradient(orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(196, 65, 196), red, orangered, orange);}
+    44% {background: conic-gradient(yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(196, 65, 196), red, orangered, orange, yellow);}
+    55% {background: conic-gradient(rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(196, 65, 196), red, orangered, orange, yellow, rgb(29, 241, 29));}
+    66% {background: conic-gradient(rgb(8, 202, 216), rgb(65, 103, 226), rgb(196, 65, 196), red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216));}
+    77% {background: conic-gradient(rgb(65, 103, 226), rgb(196, 65, 196), red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226));}
+    88% {background: conic-gradient(rgb(196, 65, 196), red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(196, 65, 196));}
+    100% {background: conic-gradient(red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(196, 65, 196), red);}
+}
+
+body{
+    animation-name: spin;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    font-family: monospace;
+    color: black;
+    font-size: 24px;
+    background: conic-gradient(red, orangered, orange, yellow, rgb(29, 241, 29), rgb(8, 202, 216), rgb(65, 103, 226), rgb(196, 65, 196), red);
+}
+
+.title{
+    background-color: rgb(0, 0, 0, 0.15);
+    font-size: inherit;
+    padding: 20px;
+    width: 600px;
+    border-style: hidden;
+    border-radius: 15px;
+}
+
+.id{
+    background-color: rgb(0, 0, 0, 0.15);
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+    border-style: hidden;
+    border-radius: 15px;
+}
+
+#view{
+    color: inherit;
+    border-radius: 10px;
+    margin: 5px;
+    width: 200px;
+    border-style: hidden;
+    height: 40px;
+    background-color:rgb(0, 0, 0, 0.15);
+}
+
+#view:hover{
+    background-color: rgb(0, 0, 0, 0.25);
+}
+
+canvas{
+    box-shadow: 1px 1px 50px grey;
+}
+
+footer{
+    margin-top: 550px;
+    background-color:rgb(0, 0, 0, 0.15);
+}
